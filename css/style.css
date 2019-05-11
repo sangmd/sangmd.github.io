@@ -1,0 +1,23 @@
+#borderMain{
+	border:0.5px solid black;
+}
+.cohinh{
+	height: 17.9rem!important;
+	width: 36rem;
+}
+.vitrihinh{
+	z-index: 100;
+}
+.vitrih5{
+	bottom: 0;
+	
+}
+.nenfooter{
+	background-color: #222222;
+}
+.mauchufooter{
+	color: #cccccc!important;
+}
+a{
+	text-decoration: none!important;
+}
