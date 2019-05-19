@@ -3,8 +3,29 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Roboto Slab', serif;
+	font-style: 
 }
-
+/*slider*/
+.top{
+	top: 0;
+}
+/*/slider*/
+/*slider4*/
+.sldier4{
+	left: 13%!important;
+}
+/*slider4*/
+/*slideRight*/
+.z-index1{
+	z-index: 1;
+}
+.top30{
+	top: 30%;
+}
+.z-index2{
+	z-index: 2;
+}
+/*/sliderRight*/
 #borderMain{
 	border:0.5px solid black;
 }
