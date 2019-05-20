@@ -5,6 +5,11 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Roboto Slab', serif;
 	font-style: 
 }
+/*banner*/
+.colorbanner{
+	color: #f79321;
+}
+/*/baner*/
 /*slider*/
 .top{
 	top: 0;
