@@ -5,6 +5,14 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Roboto Slab', serif;
 	font-style: 
 }
+/*style icon add*/
+	.sizeicon{
+		width: 4%;
+		height: 4%;
+	}
+/*/style icon add*/
+
+
 /*banner*/
 .colorbanner{
 	color: #f79321;
