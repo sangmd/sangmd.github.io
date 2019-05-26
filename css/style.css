@@ -1,107 +1,107 @@
- REPONSE Mobile Firts*/
-@media (max-width: 767.98px) { 
-.hidden-content{
-	/* .an-content */
-	display: none!important;
+ /*REPONSE Mobile Firts*/
+ @media (max-width: 767.98px) { 
+ 	.hidden-content{
+ 		display: none!important;
+ 	}
+ 	.content-center{
+ 		/* .can-giua */
+ 		display: flex;
+ 		justify-content: center;
+ 		align-items: center;
+ 	}
+ 	.show-content{
+ 		/*  .hien-content*/
+ 		display: inline-block!important;;
+ 	}
+ 	.head-content{
+ 		display: flex;
+ 		justify-content: space-between;
+ 		align-items: center;
+ 	}
+ 	.viennho{
+ 		/* For Reponse Mobile Firts*/
+ 		border-right: 1px solid #f0f0f0;
+ 	}
  }
-.content-center{
-	/* .can-giua */
-	display: flex;
+ /* /REPONSE Mobile Firts*/
+
+ .border{
+ 	border-color: #0c0c0ce6!important;
+ }
+ .border-top{
+ 	border-color: #0c0c0ce6!important;
+ }
+ body{
+ 	font-family: 'Open Sans', sans-serif;
+ }
+ h1,h2,h3,h4,h5,h6{
+ 	font-family: 'Roboto Slab', serif;
+ 	font-style: 
+ }
+ /*style icon add*/
+ .sizeicon{
+ 	width: 4%;
+ 	height: 4%;
+ }
+ /*/style icon add*/
+
+
+ /*banner*/
+ .colorbanner{
+ 	color: #f79321;
+ }
+ /*/baner*/
+ /*slider*/
+ .floating-text{
+ 	/* Chữ nổi*/
+ 	bottom: 80px!important;
+ 	margin: 0;
  	justify-content: center;
  	align-items: center;
+ 	padding: 0!important;
+
+
  }
- .show-content{
- 	/*  .hien-content*/
- 	display: inline-block!important;;
+ /*/slider*/
+ /*slider4*/
+ .sldier4{
+ 	left: 13%!important;
  }
-.head-content{
- 	display: flex;
- 	justify-content: space-between;
- 	align-items: center;
-}
-.viennho{
-	/* For Reponse Mobile Firts*/
-	border-right: 1px solid #f0f0f0;
-}
-}
-/* /REPONSE Mobile Firts*/
-/* Search Box */
+ /*slider4*/
+ /*slideRight*/
+ .z-index1{
+ 	z-index: 1;
+ }
+ .top30{
+ 	top: 30%;
+ }
+ .z-index2{
+ 	z-index: 2;
+ }
+ /*/sliderRight*/
+ #borderMain{
+ 	border:0.5px solid black;
+ }
+ .cohinh{
+ 	height: 17.9rem!important;
+ 	width: 36rem;
+ }
+ .vitrihinh{
+ 	z-index: 100;
+ }
+ .vitrih5{
+ 	bottom: 0;
 
-
-
-
-/* /Search Box*/
-body{
-	font-family: 'Open Sans', sans-serif;
-}
-h1,h2,h3,h4,h5,h6{
-	font-family: 'Roboto Slab', serif;
-	font-style: 
-}
-/*style icon add*/
-	.sizeicon{
-		width: 4%;
-		height: 4%;
-	}
-/*/style icon add*/
-
-
-/*banner*/
-.colorbanner{
-	color: #f79321;
-}
-/*/baner*/
-/*slider*/
-.floating-text{
-	/* Chữ nổi*/
-	bottom: 80px!important;
-	margin: 0;
-	justify-content: center;
-	align-items: center;
-	padding: 0!important;
-
-
-}
-/*/slider*/
-/*slider4*/
-.sldier4{
-	left: 13%!important;
-}
-/*slider4*/
-/*slideRight*/
-.z-index1{
-	z-index: 1;
-}
-.top30{
-	top: 30%;
-}
-.z-index2{
-	z-index: 2;
-}
-/*/sliderRight*/
-#borderMain{
-	border:0.5px solid black;
-}
-.cohinh{
-	height: 17.9rem!important;
-	width: 36rem;
-}
-.vitrihinh{
-	z-index: 100;
-}
-.vitrih5{
-	bottom: 0;
-	
-}
-.nenfooter{
-	background-color: #222222;
-}
-.mauchufooter{
-	color: #cccccc!important;
-}
-a{
-	text-decoration: none!important;
-}
+ }
+ .nenfooter{
+ 	background-color: #222222;
+ }
+ .mauchufooter{
+ 	color: #cccccc!important;
+ }
+ a{
+ 	text-decoration: none!important;
+ }
 /*header div ul li:after{
 	content: "   /";
 	position: absolute;
