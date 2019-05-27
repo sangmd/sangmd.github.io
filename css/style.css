@@ -27,7 +27,12 @@ h1,h2,h3,h4,h5,h6{
  		/* For Reponse Mobile Firts*/
  		border-right: 1px solid #f0f0f0;
  	}
+ 	 .col-xs-12 iframe, .col-sm-12 iframe
+ {
+ 	width: 29rem;
  }
+ }
+
  /* /REPONSE Mobile Firts*/
 
  .border{
