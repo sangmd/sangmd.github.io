@@ -1,3 +1,8 @@
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto Slab', serif!important;
+	font-weight: 700;
+}
+
  /*REPONSE Mobile Firts*/
  @media (max-width: 767.98px) { 
  	.hidden-content{
@@ -83,7 +88,7 @@
  	border:0.5px solid black;
  }
  .cohinh{
- 	height: 17.9rem!important;
+ 	height: 18.5rem!important;
  	width: 36rem;
  }
  .vitrihinh{
