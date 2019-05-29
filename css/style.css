@@ -2,7 +2,51 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Roboto Slab', serif!important;
 	font-weight: 700;
 }
+/*Back to top*/
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
 
+/*/Back to top*/
+
+/*Form*/
+form{
+			background-color: #1f2746;
+		}
+/*/Form*/
  /*REPONSE Mobile Firts*/
  @media (max-width: 767.98px) { 
  	.hidden-content{
@@ -35,6 +79,12 @@ h1,h2,h3,h4,h5,h6{
 
  /* /REPONSE Mobile Firts*/
 
+/*menu*/
+.menumain ul .active,.menumain ul .active a{
+	background-color:#d9f6f9; 
+	color:#00c0d9!important;
+}
+/*/menu*/
  .border{
  	border-color: #0c0c0ce6!important;
  }
