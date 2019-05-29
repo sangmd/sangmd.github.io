@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6{
 /*/Back to top*/
 
 /*Form*/
-form{
+.form-search{
 			background-color: #1f2746;
 		}
 /*/Form*/
@@ -83,6 +83,9 @@ form{
 .menumain ul .active,.menumain ul .active a{
 	background-color:#d9f6f9; 
 	color:#00c0d9!important;
+}
+.navbar{
+	min-height: 35px!important;
 }
 /*/menu*/
  .border{
