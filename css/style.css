@@ -2,6 +2,14 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Roboto Slab', serif!important;
 	font-weight: 700;
 }
+.bg{
+  background-image: url(../img/travel_summer_beach_background_set_vector_547590.jpg);
+    background-position: center;
+    background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*Back to top*/
 #button {
   display: inline-block;
@@ -19,7 +27,7 @@ h1,h2,h3,h4,h5,h6{
   visibility: hidden;
   z-index: 1000;
 }
-#button::after {
+#button::after{
   content: "\f077";
   font-family: FontAwesome;
   font-weight: normal;
@@ -28,6 +36,7 @@ h1,h2,h3,h4,h5,h6{
   line-height: 50px;
   color: #fff;
 }
+
 #button:hover {
   cursor: pointer;
   background-color: #333;
@@ -48,7 +57,7 @@ h1,h2,h3,h4,h5,h6{
 		}
 /*/Form*/
  /*REPONSE Mobile Firts*/
- @media (max-width: 767.98px) { 
+ @media (max-width: 767.99px) { 
  	.hidden-content{
  		display: none!important;
  	}
@@ -60,7 +69,7 @@ h1,h2,h3,h4,h5,h6{
  	}
  	.show-content{
  		/*  .hien-content*/
- 		display: inline-block!important;;
+ 		display: inline-block!important;
  	}
  	.head-content{
  		display: flex;
@@ -89,10 +98,10 @@ h1,h2,h3,h4,h5,h6{
 }
 /*/menu*/
  .border{
- 	border-color: #0c0c0ce6!important;
+ 	border-color: #0c0c0ce6;
  }
  .border-top{
- 	border-color: #0c0c0ce6!important;
+ 	border-color: #0c0c0ce6;
  }
  body{
  	font-family: 'Open Sans', sans-serif;
@@ -156,8 +165,11 @@ h1,h2,h3,h4,h5,h6{
  	bottom: 0;
 
  }
+ .bg-top{
+  background-color: #1f2746;
+ }
  .nenfooter{
- 	background-color: #222222;
+ 	background-color: #1f2746;
  }
  .mauchufooter{
  	color: #cccccc!important;
